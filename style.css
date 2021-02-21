@@ -3,7 +3,8 @@ html {
     overflow-x: hidden;
 }
 body{
-    padding: 10%;
+    padding: 20%;
+    margin: 10%;
 }
 .lefthead{
     position: relative;
@@ -33,19 +34,19 @@ body{
 .line {
     top: 120px;
      position: relative;
-     left: 20%;
+     left: 5%;
      bottom: 6%;
-     width: 20%;
-    display: inline-table;
+     width: 90%;
+     height: min-content; 
 
 }
 .line2 {
-    top: 120px;
      position: relative;
-     left: 20%;
-     width: 20%;
-    display: inline-table;
     top: 350px;
+    left: 5%;
+    bottom: 6%;
+    width: 90%;
+    height: min-content; 
 }
 .righthead-social{
     position: relative;
@@ -108,6 +109,7 @@ article h6 {
     font-family: "Abel";
     padding: 3%;
     text-indent: 50px;
+    margin: 30px;
 }
 #list {
     padding-top: 5%;
@@ -119,10 +121,11 @@ article h6 {
     background-image: url(img/list-bg.png);
     display: flex;
     position: absolute;
-   width: 800px;
-   height: 400px;
+   width: 70%;
+   height: 30%;
    background-repeat: no-repeat;
    left: 20%;
+   
    
    }
    .leftlist{
@@ -134,24 +137,27 @@ article h6 {
     position: absolute;
     margin: 0px; 
     padding: 5%; 
-    top:122%;
-    left: 14%;
+    top:119%;
+    left: 1%;
+ }
+ .name{
+     font-weight: bold;
  }
  .vantext{
     position: absolute;
-    top: 130%;
-    left: 25%;
+    top: 125%;
+    left: 12%;
 
 }  
 article a button {
     position: absolute;
-    top: 129%;
+    top: 125%;
     right: 5%; 
     background-color: rgb(136, 13, 13);
     color: white;
-    font-size: medium;
-    width: 160px;
-    height: 60px;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
     right: 14%;
 }
 footer img{
@@ -159,14 +165,22 @@ footer img{
     width: 31px;
     height: 33px;
     margin: 15px auto;
+    background-image: url(img/hr-img.png);
 }
+footer hr {
+    width: 100%;
+    position: relative;
+    bottom: 73px;
+    z-index: -1;
+    opacity: 35%;
+  }
 .foot{
     background-color: black;
     content: "";
     height: 1px;
     position: absolute;
     top: 300%;
-    width: 48%;
-    left: 300px;
+    width: 90%;
+    left: 5%;
     text-align: center;
 }
